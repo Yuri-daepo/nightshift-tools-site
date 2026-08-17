@@ -22,7 +22,7 @@ npm run lint
 npm test
 ```
 
-`npm test` produces a full production build and checks both the home and support routes.
+`npm test` produces a full production build containing the home and support routes.
 
 ## Structure
 
