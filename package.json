@@ -10,6 +10,7 @@
     "build": "vinext build",
     "start": "vinext start",
     "test": "npm run build",
+    "build:pages": "node scripts/build-pages.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate"
   },

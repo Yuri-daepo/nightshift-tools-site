@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nightshift Tools | Focused Unity Editor Tools</title>
+    <meta name="description" content="Practical Unity Editor extensions for safer, faster production workflows.">
+    <link rel="canonical" href="https://nightshift-tools.github.io/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
+    <meta property="og:title" content="Nightshift Tools | Focused Unity Editor Tools">
+    <meta property="og:description" content="Practical Unity Editor extensions for safer, faster production workflows.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nightshift-tools.github.io/">
+    <meta property="og:image" content="https://nightshift-tools.github.io/og.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nightshift Tools | Focused Unity Editor Tools">
+    <meta name="twitter:description" content="Practical Unity Editor extensions for safer, faster production workflows.">
+    <meta name="twitter:image" content="https://nightshift-tools.github.io/og.png">
+  </head>
+  <body>
+    <main>
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Nightshift Tools home">
+          <span class="brand-mark" aria-hidden="true">N</span><span>Nightshift Tools</span>
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href="#locflow">LocFlow</a><a href="#principles">About</a><a href="/support/">Support</a>
+        </nav>
+      </header>
+
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Focused Unity editor tools</p>
+          <h1>Less busywork.<br><em>Safer workflows.</em></h1>
+          <p class="hero-lede">Nightshift Tools builds practical editor extensions that turn repetitive, error-prone production work into clear and reviewable workflows.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#locflow">Explore LocFlow</a>
+            <a class="button button-secondary" href="/support/">Get support</a>
+          </div>
+          <div class="hero-proof" aria-label="Product principles">
+            <span>Editor-only</span><span>No external services</span><span>Built for teams</span>
+          </div>
+        </div>
+
+        <div class="product-stage" aria-label="LocFlow product preview">
+          <div class="stage-glow"></div>
+          <div class="studio-window">
+            <div class="window-bar">
+              <span class="window-brand">LocFlow</span><span class="window-status">UI Text</span><span class="window-version">v0.9</span>
+            </div>
+            <div class="window-tabs"><span class="active">Tables</span><span>CSV</span><span>Audit</span><span>Pseudo</span></div>
+            <div class="window-toolbar"><span class="search">Search keys and translations</span><span class="filter">Missing only</span></div>
+            <div class="locale-table" role="table" aria-label="Localized strings preview">
+              <div class="table-row table-head" role="row"><span>Key</span><span>English</span><span>French</span><span>Korean</span></div>
+              <div class="table-row" role="row"><span role="cell">Menu.Start</span><span role="cell">Start Game</span><span role="cell">Commencer</span><span role="cell">게임 시작</span></div>
+              <div class="table-row" role="row"><span role="cell">Menu.Options</span><span role="cell">Options</span><span role="cell">Options</span><span role="cell">옵션</span></div>
+              <div class="table-row flagged" role="row"><span role="cell">Game.Welcome</span><span role="cell">Welcome, {playerName}!</span><span role="cell">Bienvenue !</span><span role="cell">환영합니다!</span></div>
+              <div class="table-row" role="row"><span role="cell">Menu.Quit</span><span role="cell">Quit</span><span role="cell">Quitter</span><span role="cell">종료</span></div>
+            </div>
+            <div class="window-footer"><span><b>4</b> keys</span><span class="healthy"><i></i> 3 locales connected</span></div>
+          </div>
+          <div class="floating-card audit-card"><span class="float-label">Coverage audit</span><strong>92%</strong><div class="progress"><i></i></div></div>
+          <div class="floating-card review-card"><span class="review-check">✓</span><span><b>Review first</b><small>Nothing changes silently</small></span></div>
+        </div>
+      </section>
+
+      <section class="product-intro" id="locflow">
+        <div class="section-heading">
+          <p class="section-kicker">01 / First release</p>
+          <h2>Localization work,<br><span>finally in one place.</span></h2>
+        </div>
+        <div class="intro-copy">
+          <p class="product-name">LocFlow</p>
+          <p>A localization workflow studio for Unity's official Localization package. Edit tables, review CSV changes, audit project health, and generate pseudo-locales without sending project data to an external service.</p>
+          <div class="compatibility-line"><span>Unity 2022.3+</span><span>Localization 1.4+</span><span>Editor extension</span></div>
+        </div>
+      </section>
+
+      <section class="feature-grid" aria-label="LocFlow features">
+        <article class="feature-card"><div class="feature-top"><span>01</span><b>Tables</b></div><h3>Edit together</h3><p>Work across every locale in one spreadsheet-style view, with search, missing-value filters, and safe inline edits.</p></article>
+        <article class="feature-card"><div class="feature-top"><span>02</span><b>CSV</b></div><h3>Review every change</h3><p>Round-trip through CSV with stable IDs and a complete diff. Nothing touches your tables until you approve it.</p></article>
+        <article class="feature-card"><div class="feature-top"><span>03</span><b>Audit</b></div><h3>Find issues early</h3><p>Audit coverage, missing translations, duplicate values, placeholder mismatches, and unlocalized scene text.</p></article>
+        <article class="feature-card"><div class="feature-top"><span>04</span><b>Pseudo</b></div><h3>Stress-test the UI</h3><p>Generate accented, expanded pseudo-locales while preserving placeholders and rich-text tags.</p></article>
+      </section>
+
+      <section class="review-story">
+        <div class="review-copy">
+          <p class="section-kicker">Designed around trust</p><h2>See the change<br>before it lands.</h2>
+          <p>Localization data is easy to damage and expensive to recover. LocFlow turns imports into a review queue: additions, edits, and removals are visible before one approved change set is applied with Undo support.</p>
+        </div>
+        <div class="diff-panel" aria-label="CSV review preview">
+          <div class="diff-head"><span>CSV import review</span><b>2 changes</b></div>
+          <div class="diff-item"><span class="diff-tag add">ADD</span><span><b>Menu.Quit</b><small>New key · 3 locale values</small></span><i>✓</i></div>
+          <div class="diff-item"><span class="diff-tag change">CHANGE</span><span><b>Menu.Options · fr</b><small>“Options” → “Paramètres”</small></span><i>✓</i></div>
+          <div class="diff-item muted-diff"><span class="diff-tag remove">REMOVE</span><span><b>Legacy.Title</b><small>Removals start unapproved</small></span><i>—</i></div>
+          <button type="button" disabled>Apply approved changes</button>
+        </div>
+      </section>
+
+      <section class="principles" id="principles">
+        <div><p class="section-kicker">Built after hours. Ready for production.</p><h2>Small tools should<br>earn their place.</h2></div>
+        <div class="principle-list">
+          <article><span>01</span><div><h3>Focused</h3><p>Each tool solves a concrete production problem without adding a new platform to manage.</p></div></article>
+          <article><span>02</span><div><h3>Transparent</h3><p>Potentially destructive work is previewed, explained, and kept undoable wherever possible.</p></div></article>
+          <article><span>03</span><div><h3>Maintainable</h3><p>Documented Unity APIs, no runtime payload, and no unnecessary third-party dependencies.</p></div></article>
+        </div>
+      </section>
+
+      <figure class="brand-banner"><img src="/nightshift-tools-promo.png" width="1792" height="896" alt="Nightshift Tools — Less busywork. Safer workflows."></figure>
+
+      <section class="support-cta">
+        <p class="section-kicker">Need help with LocFlow?</p><h2>Talk to the person<br>who built it.</h2><p>Setup questions, bug reports, and workflow feedback are welcome.</p>
+        <div class="hero-actions"><a class="button button-primary" href="/support/">Visit support</a><a class="button button-secondary" href="mailto:nightshifttools@proton.me">Email Nightshift Tools</a></div>
+      </section>
+
+      <footer>
+        <a class="brand footer-brand" href="#top"><span class="brand-mark">N</span><span>Nightshift Tools</span></a>
+        <div class="footer-links"><a href="#locflow">LocFlow</a><a href="/support/">Support</a><a href="mailto:nightshifttools@proton.me">Contact</a></div>
+        <span>© 2026 Nightshift Tools</span>
+      </footer>
+    </main>
+  </body>
+</html>
